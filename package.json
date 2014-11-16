@@ -1,0 +1,19 @@
+{
+  "name": "hyperjson-response",
+  "version": "0.0.1",
+  "description": "Quickly wrap data in a HyperJSON Response message",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HyperJSON/node-hyperjson-response"
+  },
+  "keywords": [
+    "hyperjson",
+    "hyperjson-response",
+    "hj",
+    "hyperj"
+  ],
+  "author": "Buster Collings",
+  "license": "ISC",
+  "homepage": "https://github.com/HyperJSON/node-hyperjson-response"
+}
