@@ -2,7 +2,7 @@
 
 Quickly wrap data in a [HyperJSON Response message](https://github.com/HyperJSON/HyperJSON-Response)
 
-## Version 0.0.1
+## Version 0.0.2
 
 ## FYI
 

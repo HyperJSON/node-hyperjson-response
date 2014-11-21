@@ -2,12 +2,18 @@
 module.exports = function() {
   var httpStatusCodes = require('./httpStatusCodes');
 
-  var Response = function(name) {
+  function ResponseMessage(status, body) {
+    this.status = status;
+    this.body = body || {};
+  };
+
+  ResponseMessage.prototype.toString = function() {
+    return JSON.stringify(this);
+  };
+
+  function Response(name) {
     return function(body) {
-      return {
-        status: httpStatusCodes[name],
-        body: body || {}
-      };
+      return new ResponseMessage(httpStatusCodes[name], body);
     };
   };
 

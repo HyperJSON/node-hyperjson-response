@@ -1,6 +1,6 @@
 {
   "name": "hyperjson-response",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Quickly wrap data in a HyperJSON Response message",
   "main": "main.js",
   "repository": {
